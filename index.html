@@ -9,152 +9,95 @@
   <meta name="author" content="">
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
+
 
 <body>
 
-  <header>
-    <div class="navbar">
-      <a class="navbar-brand" href="index.html" title="June Kim">june kim</a>
-      <button type="button" class="navbar-toggler" data-target="#mainNavigation">
-        <i class="fa fa-bars"></i>
-      </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div id="mainNavigation" class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-          <li class="navbar-item active">
-            <a class="navbar-link" href="index.html" title="Home">HOME</a>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="about.html" title="About">ABOUT</a>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="projects.html" title="Projects">PROJECTS</a>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="contact.html" title="Contact">CONTACT</a>
-          </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
+  </nav>
+
+
+  <header>
+    <!-- will do php -->
   </header>
 
-  <h1><a href="projects.html">PROJECTS</a></h1>
   <div class="container">
-    <div class="row">
-      <div class="page-image project01 col-sm-12 col-md-6 col-lg-6">
-        <a class="image-link" href="project01.html">
-          <h2>PROJECT 1</h2>
-        </a>
-      </div>
 
-      <div class="page-image project02 col-sm-12 col-md-6 col-lg-6">
-        <a class="image-link" href="project02.html">
-          <h2>PROJECT 2</h2>
-        </a>
-      </div>
-    </div>
   </div>
 
-
-  <h1>KNOWLEDGE</h1>
+  <h1>2 Column to 1 Column Responsive Example</h1>
   <div class="container">
     <div class="row">
 
-      <div class="skills-bar col-sm-12 col-md-6 col-lg-6">
-        <h3>Photoshop</h3>
-        <div class="skillsBarContainer">
-          <div class="skillsBarValue value-95"></div>
-        </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h3>box 01</h3>
       </div>
 
-      <div class="skills-bar col-sm-12 col-md-6 col-lg-6">
-        <h3>Illustrator</h3>
-        <div class="skillsBarContainer">
-          <div class="skillsBarValue value-95"></div>
-        </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h3>box 02</h3>
       </div>
 
-      <div class="skills-bar col-sm-12 col-md-6 col-lg-6">
-        <h3>InDesign</h3>
-        <div class="skillsBarContainer">
-          <div class="skillsBarValue value-95"></div>
-        </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h3>box 03</h3>
       </div>
 
-      <div class="skills-bar col-sm-12 col-md-6 col-lg-6">
-        <h3>HTML</h3>
-        <div class="skillsBarContainer">
-          <div class="skillsBarValue value-20"></div>
-        </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h3>box 04</h3>
       </div>
 
-      <div class="skills-bar col-sm-12 col-md-6 col-lg-6">
-        <h3>CSS</h3>
-        <div class="skillsBarContainer">
-          <div class="skillsBarValue value-15"></div>
-        </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h3>box 05</h3>
       </div>
 
-      <div class="skills-bar col-sm-12 col-md-6 col-lg-6">
-        <h3>Javascript</h3>
-        <div class="skillsBarContainer">
-          <div class="skillsBarValue value-05"></div>
-        </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h3>box 06</h3>
       </div>
 
     </div>
   </div>
 
 
-
-
-
-
-  <h1>CASE STUDIES</h1>
-  <div class="container">
-    <div class="row">
-      <div class="page-image casestudy01 col-sm-12 col-md-6 col-lg-6">
-        <a class="image-link" href="#">
-          <h2>CASE STUDY 1</h2>
-        </a>
-      </div>
-
-      <div class="page-image casestudy02 col-sm-12 col-md-6 col-lg-6">
-        <a class="image-link" href="#">
-          <h2>CASE STUDY 2</h2>
-        </a>
-      </div>
-    </div>
-  </div>
 
   <footer>
-
-    <div class="the-footer">
-
-      <div class="footer-nav">
-        <ul class="bottom-nav">
-          <li class="footer-item">
-            <a class="footer-link" href="index.html" title="Home">HOME</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="about.html" title="About">ABOUT</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="projects.html" title="Projects">PROJECTS</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="contact.html" title="Contact">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="student-info">
-        June Kim and Madeline Ogrodnik | CTEC 4309 | For academic use only
-      </div>
-
-    </div>
-
+    <!-- will do php -->
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
