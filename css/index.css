@@ -1,0 +1,66 @@
+.homeheaderblock {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    align-items: center;
+    -webkit-align-items: center;
+    align-content: center;
+    -webkit-align-content: center;
+    margin: auto;
+    background-image: url("../images/poke-bowl-salmon.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 130%;
+    width: 100%;
+    height: 290px;
+}
+
+.homerewardsblock {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    align-content: center;
+    -webkit-align-content: center;
+    margin: auto;
+    background-image: url("../images/pokebowlbkgd.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 130%;
+    width: 100%;
+    height: 290px;
+}
+
+.homerewardsblock h4 {
+    color: white;
+}
+
+.homerewardsblock .button {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.button {
+    background: rgba(21, 78, 167, 0.8);
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: .9rem;
+    width: 7em;
+    font-weight: 500;
+}
+
+.button a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.button:hover {
+    background: rgba(166, 208, 37, 0.8);
+}
