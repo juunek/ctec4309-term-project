@@ -5,76 +5,99 @@ gray: #3d3d3d
 text color gray: #2c2c2c
 */
 
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
 html {
   font-family: "Rubik", "Open Sans", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.618em;
   color: #2c2c2c;
   -webkit-font-smoothing: antialiased;
 }
 
-
-/* MOBILE AND TABLET */
-
-h1, h2, h3, h4, h5, h6, p {
-  text-align: center;
-}
-
-h1, h2, h3 {
-  text-transform: uppercase;
+a {
+    color: #1146a9;
+    text-decoration: none;
 }
 
 strong {
-  font-weight: 700;
+    font-weight: 700;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  margin-top: 5rem;
+h1 a, h2 a, h3 a, h4 a, h5 a {
+    color: #2c2c2c;
+    text-decoration: none;
 }
 
-h1 a {
-  color: #2c2c2c;
-  text-decoration: none;
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+    color: #1146a9;
 }
 
-h1 a:hover {
-  color: #1146a9;
+/* - - - - - - MOBILE - - - - - - - */
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 100;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #2c2c2c;
+        font-weight: 700;
+        font-size:2.5rem;
+        line-height: 3rem;
+        margin-top: 3rem;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #2c2c2c;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        text-align: center;
+        color: #2c2c2c;
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    h5 {
+        text-align: center;
+        color: #2c2c2c;
+        font-weight: 300;
+        font-size: .95rem;
+        line-height: 1.8rem;
+    }
+
+    footer {
+        font-size: .8rem;
+        color: #2c2c2c;
+        text-align: center;
+    }
+
+/* - - - - - - TABLET - - - - - - - */
+@media (min-width: 576 px) {
+    h1 {
+        font-size: 7rem;
+    }
 }
 
-h2 {
-  font-weight: 800;
-  font-size: 2rem;
-  line-height: 2.5rem;
-  margin-top: 3rem;
-}
 
-h3 {
-  font-weight: 800;
-  font-size: 1.5rem;
-  line-height: 2.3rem;
-}
-
-h4 {
-  font-weight: 800;
-  font-size: 1.2rem;
-  line-height: 2rem;
-}
-
-h5 {
-  font-size: .95rem;
-  font-weight: 300;
-  line-height: 1.8rem;
-  text-align: left;
-}
-
-h5 a {
-  font-weight: 600;
-  color: white;
-}
-
-h5 a:hover {
-  color: #CAEBED;
+/* - - - - - - DESKTOP - - - - - - - */
+@media (min-width: 850 px) {
+    h1 {
+        font-size: 10rem;
+    }
 }
