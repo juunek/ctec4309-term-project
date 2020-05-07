@@ -81,6 +81,11 @@ width: 100%;
   height: 300px;
 }
 
+.mySlides{
+  border: solid grey 2px;
+  padding-top: 30px;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
