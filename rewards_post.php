@@ -1,5 +1,6 @@
 <?php
     include('includes/arrays.php');
+    include('includes/nav.php');
     // set up variables to store all suer input
 $name = $_POST['name'];
 $number = $_POST['number'];
@@ -7,7 +8,7 @@ $email = $_POST['email'];
 $nameLength = strlen($name);
 
 
-if (array_key_exists("SubmitThis", $_POST)) {
+if (array_key_exists("submitThis", $_POST)) {
 
 	//== Modify the required and expected arrays below to fit your form ========
 	$required = array('name', 'number','email');
@@ -90,7 +91,7 @@ if (array_key_exists("SubmitThis", $_POST)) {
 
 
 } else {
-	$output = "Please post your message use <a href='post_form.php'>this form</a>.";
+	$output = "Please post your message use <a href='rewards.php'>this form</a>.";
 }
 
 
@@ -118,6 +119,8 @@ if (array_key_exists("SubmitThis", $_POST)) {
 </header>
 
 <main>
+    
+<?php echo $output?>
 
 </main>
 

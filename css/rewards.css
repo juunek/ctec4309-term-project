@@ -1,0 +1,16 @@
+.rewardsform {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 12px;
+  font-size: 1em;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label p {
+    text-align: left;
+}

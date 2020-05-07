@@ -51,12 +51,12 @@
 }
 
 .owner-photo {
-  width: 65%;
+  width: 60%;
   padding-top: 20px;
   border-radius: 50%;
 }
 
-.aboutp {
+.about {
   text-align: center;
 }
 
@@ -82,8 +82,9 @@ width: 100%;
 }
 
 .mySlides{
-  border: solid grey 2px;
+  border: solid grey 0px;
   padding-top: 30px;
+  padding-left: 20px;
 }
 
 /* Next & previous buttons */
@@ -156,7 +157,7 @@ width: 100%;
     text-align: center;
     text-decoration: none;
     font-size: .9rem;
-    width: 7em;
+    width: 8em;
     font-weight: 500;
 }
 

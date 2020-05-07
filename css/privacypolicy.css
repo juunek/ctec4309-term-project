@@ -1,0 +1,15 @@
+.privacypolicy {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.privacypolicy h1, h2, h3, h4, h5 {
+    color: #2c2c2c;
+}
+
+.privacypolicy p {
+    text-align: left;
+}

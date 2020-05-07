@@ -2,7 +2,10 @@
 @import url("typography.css");
 @import url("navigation.css");
 @import url("index.css");
+@import url("menu.css");
+@import url("rewards.css");
 @import url("news.css");
+@import url("privacypolicy.css");
 
 /* GLOBAL COLORS
 blue: #1146a9

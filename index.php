@@ -17,87 +17,70 @@
 <body>
 
 <header>
-<!--
     <?php include('includes/nav.php'); ?>
-    -->
-
-    <div class="container nav">
-    <div class="nav-bar">
-        <div class="logo">
-            <a class="" href="index.php" title="Home"><img src="images/apb-logo.svg" height="120px"></a>
-        </div>
-        <div class="contact">
-            <h4><a href="tel:817-200-6418">(817) 200-6418</a></h4>
-            <p><a href="https://goo.gl/maps/1Jsr7fxhxkqSenWe9"><img src="images/maps-icon.svg" height="12px"> 3701 S Cooper Street, #169</a></p>
-        </div>
-    </div>
-
-    <div class="nav-menu"
-        <div class="multiblock">
-          <a class="nav-items" href="index.html">HOME</a>
-          <a class="nav-items" href="menu.html">MENU</a>
-          <a class="nav-items" href="rewards.html">REWARDS</a>
-          <a class="nav-items" href="news.html">NEWS</a>
-        </div>
-    </div>
-</div>
 </header>
-
+    
 <main>
-
+    
     <h1>HIGH QUALITY POKE BOWLS</h1>
-
+    
     <div class="container">
         <div class="homeheaderblock">
             <div class="multiblock">
-                <div class="button"><a href="index.php">MENU</a></div>
+                <div class="button"><a href="menu.php">ORDER</a></div>
             </div>
             <div class="multiblock">
-                <div class="button"><a href="index.php">ORDER</a></div>
+                <div class="button"><a href="delivery.php">DELIVERY</a></div>
             </div>
         </div>
     </div>
 
-
+    
     <h2>FRESH C.A.T.C.H.</h2>
-
+    
     <div class="container">
         <div class="col-sm-12 col-md-12 col-lg-12 singleblock">
             <h5>Colorful, Affordable, Tasty, Customizable, Healthy</h5>
         </div>
     </div>
+
     <div class="container">
         <div class="homerewardsblock">
             <div class="singleblock">
-                <h4>For every 15 bowls, get one FREE!</h4>
+                <h2 style="color:white">REWARDS</h2>
+                <h4 style="color:white">For every 15 bowls, get one FREE!</h4><br>
             </div>
             <div class="singleblock">
-                <div class="button"><a href="rewards.php">REWARDS</a></div>
+                <div class="button"><a href="rewards.php">SIGN UP</a></div>
             </div>
         </div>
     </div>
 
-    <h2>ABOUT US</h2>
+
+<h2>ABOUT US</h2>
 
     <div class="container">
     <div class="wrap">
 
 
-      <div class="multiblock col-sm-12 col-md-6 col-lg-6">
-        <img class="owner-photo" src="images/owner1.jpg">
-      </div>
-
-      <div class="multiblock col-sm-12 col-md-6 col-lg-6">
-        <img class="owner-photo" src="images/owner2.jpg">
-      </div>
-      <div class="aboutp">
-        <p>
-        Owners, Chef Khang V. and his business partner Ronnie L. grew up together in Hawaii and    are very familiar with how tasty and popular poke is.
-        <br><br>We are proud to be the first in Texas to bring you the  popular Hawaiian poke bowl dish using the freshest and highest quality of sustainable ingredients!
-        </p>
-      </div>
+        <div class="multiblock col-sm-12 col-md-6 col-lg-6">
+            <img class="owner-photo" src="images/owner1.jpg">
+        </div>
+        
+        <div class="multiblock col-sm-12 col-md-6 col-lg-6">
+            <img class="owner-photo" src="images/owner2.jpg">
+        </div>
+        
+        <div class="singleblock">
+            <div class="description">
+                <p>
+                Owners, Chef Khang V. and his business partner Ronnie L. grew up together in Hawaii and    are very familiar with how tasty and popular poke is.
+                <br><br>We are proud to be the first in Texas to bring you the  popular Hawaiian poke bowl dish using the freshest and highest quality of sustainable ingredients!
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="storefront">
+    <div class="singleblock">
       <img class="store" src="images/store.jpg">
     </div>
 </div>
@@ -131,6 +114,8 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+
+
 </main>
 
 <?php include('includes/footer.php'); ?>
@@ -144,6 +129,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="js/carousel.js"></script>
 
-<footer>
-
-</footer>
+</body>
+</html>

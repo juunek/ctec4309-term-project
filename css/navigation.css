@@ -10,7 +10,9 @@ header {
 
 footer {
   margin-top: 10rem;
+  margin-bottom: 10px;
   width: 100%;
+  bottom: 0;
 }
 
 
@@ -69,6 +71,10 @@ text color gray: #2c2c2c
     color: #ffffff;
 }
 
+.contact h4 {
+    text-align: right;
+}
+
 .contact a:hover {
     color: #a8d427;
 }
@@ -116,15 +122,15 @@ a:hover {
 /* - - - - - - - - - - - START FOOTER - - - - - - - - - - - */
 
 @media (max-width: 576 px) {
-
+    
 }
 
 @media (min-width: 576 px) {
-
+    
 }
 
 @media (min-width: 850 px) {
-
+    
 }
 
 
