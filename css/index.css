@@ -66,6 +66,10 @@
   padding-left: 300px;
 }
 
+.store {
+width: 100%;
+}
+
 .button {
     background: rgba(21, 78, 167, 0.8);
     border: none;
