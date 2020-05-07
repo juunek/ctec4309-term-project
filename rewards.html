@@ -6,7 +6,7 @@
 
 <html lang="en">
 <head>
-    <title>Ahi Poke Bowl | News</title>
+    <title>Ahi Poke Bowl | Rewards</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -45,32 +45,25 @@
 
 <main>
 
-    <h1>NEWS</h1>
-
+    <h1>REWARDS</h1>
     <div class="container">
+    <h5>Make every meal count with our free rewards program.<br> After 15 bowls, get a bowl on us! Fill out the form below to get started.</h5>
 
-      <h3>Where to Find Dallas' Best Poke Bowls</h3>
-      <p>Eater Dallas</p>
-      <a href="https://dallas.eater.com/maps/best-poke-bowls-dallas-poke-burritos" target="_blank"><img src="images/logo1.jpg" alt="Eater Dallas article"></a>
-        <br><br>
-      <h3>Like Sushi in a Bowl, But Better: Poke Spreads Around DFW</h3>
-      <p>Dallas Observer</p>
-      <a href="https://www.dallasobserver.com/restaurants/like-sushi-in-a-bowl-but-better-poke-spreads-around-dfw-8412486" target="_blank"><img src="images/logo2.jpg" alt="Dallas Observer article"></a>
-        <br><br>
-      <h3>City Guide: Ahi Poke Bowl</h3>
-      <p>Fort Worth Culture Map</p>
-      <a href="https://fortworth.culturemap.com/guide/restaurants/ahi-poke-bowl/" target="_blank"><img src="images/logo3.jpg" alt="Fort Worth article"></a>
-        <br><br>
-      <h3>Dallas Travel Guide: Ahi Poke Bowl</h3>
-      <p>10Best | A Division of USA Today</p>
-      <a href="https://www.10best.com/destinations/texas/dallas/arlington/restaurants/ahi-poke-bowl/" target="_blank"><img src="images/logo4.jpg" alt="Dallas Travel Guide article"></a>
-
-
-
+<form action="rewards_post.php" method="post">
+    <div class="signup">
+      <h6>First and Last Name:</h6>
+      <label for="name"></label> <input type="text" name="name" size="40" style="height: 40px;"><br/>
+      <h6>E-mail:</h6>
+    	<label for="email"></label> <input type="text" name="email" size="40" style="height:40px;"><br/>
+      <h6>Phone Number</h6>
+      <label for="number"></label> <input type="text" name="number" size="40" style="height:40px;"><br/>
     </div>
-
-
-
+<br>
+    <input type="checkbox" id="scales" name="scales"><label for="scales" style="font-size: 12px;">I want emails on promo and specials! No third party emails :)</label>
+    <br><br>
+    <input type="submit" name="submitThis" value="Submit">
+</form>
+    </div>
 </main>
 
 <?php include('includes/footer.php'); ?>
